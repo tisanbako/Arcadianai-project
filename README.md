@@ -2,19 +2,19 @@
 
 The scripts will create a VPC and an EKS cluster in: us-east-1
 
-## How to run it
+### How to run it
 - export AWS_PROFILE=user1 # The name of the profile you want to use
 - ./create-vpc-stack.sh
 - ./create-eks-stack.sh
 
-## How to clean up
+### How to clean up
 - ./delete-eks-stack.sh
 - ./delete-vpc-stack.sh
 
 
-## Tips
+### Tips
 
-## Update Kubeconfig
+### Update Kubeconfig
 aws eks update-kubeconfig --region us-east-1 --name my-eks-cluster
 
 # 2. Deploying NGINX with Helm on an EKS 
@@ -53,7 +53,7 @@ Check if the service is exposed:
 kubectl get services
 ```
 
-## 3. CI/CD Pipeline for Building and Pushing Docker Images to Amazon ECR
+# 3. CI/CD Pipeline for Building and Pushing Docker Images to Amazon ECR
 This document explains how the CI/CD pipeline works for building a Docker image and pushing it to an Amazon Elastic Container Registry (ECR) using GitHub Actions.
 
 ## Workflow Overview
