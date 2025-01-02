@@ -1,0 +1,5 @@
+apiVersion: v2
+name: nginx-deployment
+version: 1.0.0
+appVersion: "1.21.1"
+description: A Helm chart for deploying an NGINX container with a LoadBalancer on EKS.
