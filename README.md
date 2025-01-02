@@ -29,7 +29,12 @@ This guide explains how to create and deploy the provided Helm chart to launch a
 
 
 ### 1. Create the Helm Chart 
-use the command helm chart and edit the files to fit the specification
+use the command 
+```bash 
+helm create <name-of-chart>
+```
+
+Or manually create the folders and files and edit them to fit your specification.
 
 ### 2. Install the Helm Chart
 To install the chart, use the following command:
