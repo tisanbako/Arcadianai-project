@@ -53,7 +53,7 @@ Check if the service is exposed:
 kubectl get services
 ```
 
-## 3.CI/CD Pipeline for Building and Pushing Docker Images to Amazon ECR
+## 3. CI/CD Pipeline for Building and Pushing Docker Images to Amazon ECR
 This document explains how the CI/CD pipeline works for building a Docker image and pushing it to an Amazon Elastic Container Registry (ECR) using GitHub Actions.
 
 ## Workflow Overview
