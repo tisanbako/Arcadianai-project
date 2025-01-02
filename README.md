@@ -12,7 +12,7 @@ The scripts will create a VPC and an EKS cluster in: us-east-1
 - ./delete-vpc-stack.sh
 
 
-# Tips
+## Tips
 
 ## Update Kubeconfig
 aws eks update-kubeconfig --region us-east-1 --name my-eks-cluster
@@ -29,6 +29,7 @@ This guide explains how to create and deploy the provided Helm chart to launch a
 
 
 ### 1. Create the Helm Chart 
+use the command helm chart and edit the files to fit the specification
 
 ### 2. Install the Helm Chart
 To install the chart, use the following command:
